@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName": "compile",
+            "isShellCommand": true,
+            "windows": {
+                "command": "g++",
+                "args": ["-g", "-std=c++11", "main.cpp"]
+            },
+            "linux": {
+                "command": "g++",
+                "args": ["-g", "-std=c++11", "main.cpp"]
+            },
+            "osx": {
+                "command": "g++",
+                "args": ["-g", "-std=c++11", "main.cpp"]
+            }
+        }
+    ]
+}
